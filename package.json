@@ -27,6 +27,7 @@
     "http": "^0.0.1-security"
   },
   "engines": {
-    "node": "16.x"
+    "node": "16.13.2",
+    "npm": "8.1.2"
   }
 }
