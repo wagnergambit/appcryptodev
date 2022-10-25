@@ -5,7 +5,7 @@ const debug = require('debug')('nodestr:server');
 const express = require('express');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 app.set('port', port);
 
 const server = http.createServer(app);
