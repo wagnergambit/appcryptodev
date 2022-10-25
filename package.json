@@ -1,0 +1,32 @@
+{
+  "name": "appcryptodev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wagnergambit/appcryptodev.git"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "slade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wagnergambit/appcryptodev/issues"
+  },
+  "homepage": "https://github.com/wagnergambit/appcryptodev#readme",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
